@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+ <script>
+//Utilizando os valores 2x² -5x + 2 = 0 os resultados são: Delta = 9 ; X1 = 2.00 ; X2 = 0.50 
+
+    a = prompt("Digite apenas o valor do A: (exemplo 2x² -> 2)")
+    b = prompt("Digite apenas o valor do B: (exemplo -3x -> -3)")
+    c = prompt("Digite apenas o valor do C: (exemplo 4 -> 4)")
+
+
+ delta = (b*b) - (4*a*c)
+
+
+ document.write(`O resultado de delta é ${delta.toFixed(2)}<br>`) 
+ 
+        
+     x1 = (-b + Math.sqrt(delta)) / (2*a)
+
+     x2 = (-b - Math.sqrt(delta)) / (2*a)
+
+
+ document.write(`O resultado de x1 é ${x1.toFixed(2)}<br>`)   
+
+ document.write(`O resultado de x2 é ${x2.toFixed(2)}`)   
+
+
+
+ </script>
+
+</body>
+</html>
